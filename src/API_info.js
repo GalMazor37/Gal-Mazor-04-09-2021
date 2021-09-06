@@ -1,0 +1,10 @@
+export const url_1DayForecast = 'http://dataservice.accuweather.com/forecasts/v1/daily/1day/';
+export const url_5DaysForecast = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/';
+export const url_CurrentForecast = 'http://dataservice.accuweather.com/currentconditions/v1/';
+export const url_AutocompleteCitySearch = 'http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=';
+export const url_Apikey = '?apikey=';
+export const url_CitySearchText = '&q=';
+// export const apikey = 'HybtEWaQWW2XXOx8VTkZMFQRiZOgL9J4';
+export const apikey = 'eEbbt5sea3WaNk6FGXp0DFJXG9bMpoRT';
+export const apikey_limitError = 'eEbbt5sea3WaNk6FGXp0DFJXG9bMpoRT';
+export const temperatureUnit = '&metric=true';

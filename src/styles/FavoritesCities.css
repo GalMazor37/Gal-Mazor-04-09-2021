@@ -1,0 +1,276 @@
+.singleFavoriteCity {
+    display: flex;
+    flex-direction: column;
+}
+
+.favoriteCityCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_F_C_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_div {
+    flex-basis: 30%;
+}
+
+.headerTemp_card {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsUpdatesMainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.NU_FullArea_WP {
+    /* padding: 20px 50px 20px 0px; */
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgba(69, 88, 196, 0.2);
+    /* max-height: 200px; */
+}
+
+.NU_topFullArea_WP {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+.imgRightArea_NU {
+    width: 30%;
+    position: relative;
+}
+
+.infoLeftArea_NU {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.NU_titleTextArea {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+.NU_location_Date_ReadMore {
+    display: flex;
+    flex-direction: row;
+    font-family: Assistant_Regular;
+    font-size: 1.3rem;
+    color: #273777;
+    line-height: 1.7;
+}
+
+
+.NU_locationDateArea {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.NU_ReadMoreArea {
+    display: block;
+    width: 25%;
+    text-align: left;
+}
+
+.NU_ReadMoreArea_Hide {
+    display: none;
+}
+
+.readMoreNewsUpdates {
+    cursor: pointer;
+}
+
+.NU_FullArea_WP .fa-plus:before,
+.NU_FullArea_WP .fa-minus:before {
+    font-size: 0.9rem;
+}
+
+
+.newsUpdateWP_Img {
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+.NU_titleTextArea {
+    text-align: right;
+}
+
+.mainTitle_NU_WP {
+    font-family: Assistant_Bold;
+    line-height: 1.13;
+    font-size: 2rem;
+    color: #273777;
+
+}
+
+.textFloatSummary_NU_WP {
+    font-family: Assistant_Regular;
+    line-height: 1.27;
+    color: #1b264f;
+    font-size: 1.4rem;
+}
+
+.makeFontBold {
+    font-family: Assistant_Bold;
+    padding-left: 6px;
+}
+
+.NU_FullArea_WP .fa-map-marker-alt:before {
+    color: #ffb500;
+    font-size: 18px;
+}
+
+.NU_FullArea_WP .fa-calendar-day:before {
+    color: #ffb500;
+    font-size: 18px;
+}
+
+.cityName_NU_WP {
+    padding-left: 20px;
+}
+
+.NU_bottomFullArea_WP {
+    display: block;
+    font-family: Assistant_Regular;
+    font-size: 1.3rem;
+    color: #273777;
+    line-height: 1.2;
+}
+
+.textFullSummary_NU_WP p {
+    margin: 0;
+}
+
+.closeNewsUpdatesCont {
+    text-align: left;
+}
+
+.closeNewsUpdates {
+    cursor: pointer;
+}
+
+.NU_bottomFullArea_WP_Hide {
+    display: none;
+}
+
+.newsUpdatesSearch {
+    width: 100%;
+    position: relative;
+}
+
+.newsUpdatesSearch input {
+    width: 40%;
+    box-shadow: 0 19px 40px 0 rgba(43, 64, 144, 0.15);
+    background-color: #ffffff;
+    border-radius: 45px;
+    line-height: 1.41;
+    font-size: 1.4rem;
+    margin: 2px 0px 2px 0px;
+    opacity: 0.5;
+    color: #223480;
+    font-family: Assistant_Regular;
+    padding-right: 5%;
+}
+
+.newsUpdatesSearch i {
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+    top: 10px;
+}
+
+/* .assToolImgError {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, black 99%);
+} */
+/* .newsUpdatesSearch form{
+    width: 40%;
+} */
+/* .newsSearchForm{
+
+} */
+
+.reloadNewsUpdateDiv {
+    color: #4558c4;
+    line-height: 1.27;
+    font-size: 1.3rem;
+    font-family: openSansHebrew;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reloadNewsUpdateButton {
+    cursor: pointer;
+}
+
+.noMoreReloadNewsUpdateButton {
+    cursor: no-drop;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .NU_topFullArea_WP {
+        flex-direction: column;
+    }
+
+    .imgRightArea_NU {
+        width: 100%;
+        padding-bottom: 25px;
+
+    }
+
+    .newsUpdateWP_Img {
+        width: 100%;
+    }
+
+    .infoLeftArea_NU {
+        width: 100%;
+    }
+
+    .newsUpdatesSearch input {
+        width: 100%;
+        padding-right: 10%;
+    }
+
+    .mainTitle_NU_WP {
+        font-size: 1.6rem;
+    }
+
+    .textFloatSummary_NU_WP {
+        font-size: 1.2rem;
+    }
+
+    .NU_location_Date_ReadMore {
+        font-size: 1.1rem;
+    }
+}
